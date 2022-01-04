@@ -6,6 +6,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class JavaSpringSecurityTutorialApplication {
 
+    //Note: In Form Based Authentication, we have separate API Endpoints for Login and Logout
+    //need to cover Form Based Authentication in detail
+
     public static void main(String[] args) {
         SpringApplication.run(JavaSpringSecurityTutorialApplication.class, args);
     }
